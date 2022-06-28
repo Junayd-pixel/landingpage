@@ -1,3 +1,21 @@
+
+
+//function js pour défiler sur un élément
+
+
+/*function scrollWin() {
+  window.scrollByPages(1);
+}*/
+
+
+function maFonction() {
+  const element = document.getElementById("content");
+  element.scrollIntoView();
+}
+
+
+
+
 /*var i = 0;
 function move() {
   if (i == 0) {
@@ -16,15 +34,3 @@ function move() {
     }
   }
 }*/
-
-
-//function js pour défiler sur un élément
-
-console.log('coucou');
-
-var btn = document.getElementById('btn');
-
-function scroll() {
-//    btn.style.background = "purple";
-    alert('coucou ça fonctionne ?');
-}
