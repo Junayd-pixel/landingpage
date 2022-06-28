@@ -37,10 +37,20 @@ html {
 }
 
 .part2 {
-    background-color: orange;
+  background-color: orange;
     display: flex;
     text-align: center;
+    height: 930px;
+    align-items: center;
 }
+
+
+.content2 {
+  background-color: orange; 
+  display: flex;
+  height: 600px;
+}
+
 
 
 .dbz{
@@ -51,7 +61,7 @@ html {
     margin-top: 160px;
 }
 
-.start .button {
+.button {
     width: 240px;
     height: 45px;
     font-family: 'Roboto', sans-serif;
@@ -69,17 +79,23 @@ html {
     outline: none;
     }
   
-  .start .button:hover {
+  .button:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
   }
 
+  .container button {
+    margin-top: 350px;
+  }
+
   .containerpart{
     display: flex;
     height: 600px;
   }
+
+
 
   /* Progress bar 
 
@@ -211,6 +227,18 @@ html {
      img{
         display: none;
     }
+
+    .part2{
+      display: block;
+      height: 800px;
+    }
+    .container button {
+      margin-top: 0;
+    }
+
+    #fs-frm{
+      margin-top: 100px;
+    }
   }
   @media (max-width: 580px){
     h2 {font-size:1.1em; padding:10px 0;}
@@ -270,16 +298,6 @@ html {
     height: 5em;
   }
 
-  /* Pour placer le bouton à la même position que les champs texte */
-  .part2 .button {
-    padding-left: 90px;                       /* même taille que les étiquettes */
-  }
-  
-  .part2 button {
-    /* Cette marge supplémentaire représente grosso modo le même espace que celui
-       entre les étiquettes et les champs texte */
-    margin-left: .5em;
-  }
 
 
 

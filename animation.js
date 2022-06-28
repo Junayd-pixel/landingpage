@@ -13,6 +13,15 @@ function maFonction() {
   element.scrollIntoView();
 }
 
+function maFonction2() {
+  const element = document.getElementById("content2");
+  element.scrollIntoView();
+}
+
+function maFonction3() {
+  const element = document.getElementById("top");
+  element.scrollIntoView();
+}
 
 
 

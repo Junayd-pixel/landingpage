@@ -9,13 +9,13 @@
 </head>
 <body>
     <div class="part1">
-    <section class="section1">
+    <section id="top" class="section1">
         <h1>Formation Dev web : ITS FINISH !</h1>
         <p> Texte formation dev web terminé blabla Texte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blablaTexte formation dev web terminé blabla</p>
         <div class="start">
         <img src="mario.png">
         </br>
-        <button id="btn" class="button" type="button" onclick="maFonction()">Start</button>
+        <button class="button" type="button" onclick="maFonction()">Start</button>
     </div>
     </section>
     </div>
@@ -36,6 +36,7 @@
     <h2 class="plataformas titulo">CMS</h2>
     <ul class="skill">
       <li><span class="greenline wordpress"></span><em>Wordpress</em></li>
+      <button class="button" type="button" onclick="maFonction2()">Contact</button>
     </ul>
   </div>
 
@@ -46,14 +47,16 @@
     </div>
 
 
-    <div class="part2">
+    <div id="content2" class="part2">
+      <button class="button" type="button" onclick="maFonction3()">Top</button>
+      <div class="content2">
         <img src="pc.png">
         
         <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xeqnwvwa" method="post">
           <fieldset id="fs-frm-inputs">
-            <label for="full-name">Full Name</label>
-            <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
-            <label for="email-address">Email Address</label>
+            <label for="full-name">Name</label>
+            <input type="text" name="name" id="full-name" placeholder="Nom et Prénom" required="">
+            <label for="email-address">Adresse email</label>
             <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
             <label for="message">Message</label>
             <textarea rows="5" name="message" id="message" placeholder="Aenean lacinia bibendum nulla sed consectetur. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla nullam quis risus." required=""></textarea>
@@ -62,7 +65,7 @@
           <input type="submit" value="Submit">
         </form>
         <img class="dbz" src="dbz.png">
-    
+      </div>
     </div>
 
 
