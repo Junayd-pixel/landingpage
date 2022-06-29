@@ -11,6 +11,13 @@ html {
 }
 
 
+p {
+  font-size: 2em;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+
+
 .section1{
     background-color: orange;
     width: 100%;
@@ -94,6 +101,48 @@ html {
     display: flex;
     height: 600px;
   }
+
+  .image {
+    max-width: 150px;
+    position: absolute;
+  }
+/*IMAGE POSITION*/
+
+
+#image1{
+  position: absolute;
+  top: 40px; left: 1690px;
+  max-width: 100px;
+}
+#image2{
+  position: absolute;
+top: 720px; left: 40px;
+}
+#image3{
+  position: absolute;
+top: 720px; left: 65px;
+}
+#image4{
+  position: absolute;
+top: 440px; left: 1600px;
+}
+#image5{
+  position: absolute;
+top: 660px; left: 1200px;
+}
+#image6{
+  position: absolute;
+top: 400px; left: 40px;
+}
+#image7{
+  position: absolute;
+top: 40px; left: 40px;
+max-width: 100px;
+}
+#image8{
+  position: absolute;
+top: 660px; left: 520px;
+}
 
 
 
@@ -227,10 +276,20 @@ html {
      img{
         display: none;
     }
+    .section1 img {
+      width: 25%;
+      display: block;
+      margin-left: 150px;
+  }
+  .section1 h1{
+    font-size: 4em;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+  }
 
     .part2{
       display: block;
-      height: 800px;
+      height: 840px;
     }
     .container button {
       margin-top: 0;
@@ -239,6 +298,18 @@ html {
     #fs-frm{
       margin-top: 100px;
     }
+
+    .block {
+      display: none;
+    }
+    p {
+      font-size: 1em;
+      text-shadow: 1px 1px 2px black;
+      color: white;
+    }
+    .start {
+      margin-top: 100px;
+  }
   }
   @media (max-width: 580px){
     h2 {font-size:1.1em; padding:10px 0;}
@@ -297,10 +368,6 @@ html {
     /* Pour donner assez de place pour écrire du texte */
     height: 5em;
   }
-
-
-
-
 
   /* Ceci est le formulaire */
 
