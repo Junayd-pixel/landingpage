@@ -32,6 +32,7 @@ p {
   font-size: 5em;
   text-shadow: 1px 1px 2px black;
   color: white;
+  
 }
 
 .section1 img {
@@ -264,61 +265,6 @@ top: 660px; left: 520px;
   /*plataformas*/
   @keyframes wordpress   { 0% { width:0px; } 100% { width:80%; }  }
 
-  /*media queries*/
-  @media (max-width: 1200px){
-    h2 {font-size:2.2em;}
-  }
-  @media (max-width: 980px){
-    h2 {font-size:1.8em;}
-  }
-  @media (max-width: 767px){
-    h2 {font-size:1.4em;}
-     img{
-        display: none;
-    }
-    .section1 img {
-      width: 25%;
-      display: block;
-      margin-left: 150px;
-  }
-  .section1 h1{
-    font-size: 4em;
-    text-shadow: 1px 1px 2px black;
-    color: white;
-  }
-
-    .part2{
-      display: block;
-      height: 840px;
-    }
-    .container button {
-      margin-top: 0;
-    }
-
-    #fs-frm{
-      margin-top: 100px;
-    }
-
-    .block {
-      display: none;
-    }
-    p {
-      font-size: 1em;
-      text-shadow: 1px 1px 2px black;
-      color: white;
-    }
-    .start {
-      margin-top: 100px;
-  }
-  }
-  @media (max-width: 580px){
-    h2 {font-size:1.1em; padding:10px 0;}
-  }
-  @media (max-width: 480px){ 
-    h2 {font-size:2.2em; padding: 10px 0 15px 0;}
-    .col {width: 90%;}
-  }
-
 
   /* FORMULAIRE */
 
@@ -498,4 +444,72 @@ top: 660px; left: 520px;
   opacity:1;
   transform: none;
   color:transparent;
+}
+
+.texte {
+  width: 79%;
+  align-items: center;
+  justify-content: center;  
+  margin-left: 150px;
+}
+
+/*media queries*/
+@media (max-width: 1200px){
+  h2 {font-size:2.2em;}
+}
+@media (max-width: 980px){
+  h2 {font-size:1.8em;}
+}
+@media (max-width: 767px){
+  h2 {font-size:1.4em;}
+   img{
+      display: none;
+  }
+  .section1 img {
+    width: 25%;
+    display: block;
+    margin-left: 150px;
+}
+  .section1 h1{
+  font-size: 4.7em;
+  text-shadow: 1px 1px 2px black;
+  color: white;
+}
+.texte {
+  width: 79%;
+  align-items: center;
+  justify-content: center;  
+  margin-left: 40px;
+}
+
+  .part2{
+    display: block;
+    height: 840px;
+  }
+  .container button {
+    margin-top: 0;
+  }
+
+  #fs-frm{
+    margin-top: 100px;
+  }
+
+  .block {
+    display: none;
+  }
+  p {
+    font-size: 1em;
+    text-shadow: 1px 1px 2px black;
+    color: white;
+  }
+  .start {
+    margin-top: 100px;
+}
+}
+@media (max-width: 580px){
+  h2 {font-size:1.1em; padding:10px 0;}
+}
+@media (max-width: 480px){ 
+  h2 {font-size:2.2em; padding: 10px 0 15px 0;}
+  .col {width: 90%;}
 }
