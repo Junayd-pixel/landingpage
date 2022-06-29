@@ -478,3 +478,24 @@ top: 660px; left: 520px;
 #fs-frm fieldset.locale select[name="state"] {
   margin-right: 3%;
 }
+
+
+/* Animation texte */
+
+.animated-text span:not(.fade) {
+  opacity:0;
+  transform: translateY(50%) rotate(45deg);
+}
+
+.animated-text span {
+  transition:all .4s;
+  display:inline-block;
+}
+
+.animated-text--typing span.fade + span:not(.fade) {
+  transition: none;
+  background:black;
+  opacity:1;
+  transform: none;
+  color:transparent;
+}
